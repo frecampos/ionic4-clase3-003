@@ -9,11 +9,11 @@ export class HomePage {
 
   constructor() {}
 
-  rut:String ="";
+  rut:String ="453534";
   nombreCompleto:String ="";
   edad:BigInteger;
 
   cambiarDatos(){
-    alert('pincho boton');
+    alert('pincho boton'+this.rut);
   }
 }
