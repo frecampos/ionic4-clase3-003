@@ -9,4 +9,11 @@ export class HomePage {
 
   constructor() {}
 
+  rut:String ="";
+  nombreCompleto:String ="";
+  edad:BigInteger;
+
+  cambiarDatos(){
+    alert('pincho boton');
+  }
 }
